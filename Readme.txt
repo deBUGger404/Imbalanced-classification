@@ -7,6 +7,8 @@ codes info:
 
 // there is a one hot encoded object which i used to encode labels: ohe_final.pkl
 // And I saved model object for respective model_parts: part1.h5, part2.h5 and part3.h5
-/
+// used seed fixing method to reproducing same results again on the starting of the code
+// used tensorflow`s tf.data to leverage the prefecthing method to decrease the training time
+// used transfer learning to train model better and in less time
 
 
